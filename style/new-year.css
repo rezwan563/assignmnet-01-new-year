@@ -50,7 +50,12 @@
     align-items: center;
     justify-content: space-evenly ;
     margin: 120px 153px;
-
+}
+img{
+    /* background-color: rgba(255, 149, 0, 0.375); */
+    border-radius: 40%;
+    
+    
 }
 .failure-container{
     width: 500px;
@@ -63,4 +68,52 @@
     margin-bottom: 20px;
 }
 
+.failure-bullet{
+    margin-bottom: 10px;
+}
+.plan-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    
+}
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.plan{
+    text-align: center;
 
+}
+.my-plan{
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.plan-description{
+    color:gray
+}
+.gradient{
+    margin-top: 100px;
+    position: relative;
+    text-align: left;
+    color: black;
+   
+   
+}
+.wrist-watch{
+    
+    margin-top: 100px;
+    margin-left: 350px;
+    background-image: url(../images/watch.png);
+    border-radius: 0;
+}
+.gradient-text{
+    position: absolute;
+    left:200px
+
+    ;
+    
+
+}
