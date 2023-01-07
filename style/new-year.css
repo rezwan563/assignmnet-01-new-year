@@ -44,7 +44,14 @@
 }
 
 /* failure story css */
-
+ul{
+    margin: 0;
+    padding: 10px;
+}
+li{
+    margin-bottom: 10px;
+    list-style: square;
+}   
 
 .person-container{
     display: flex;
