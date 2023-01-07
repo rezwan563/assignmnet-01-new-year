@@ -4,6 +4,7 @@
 }
 
 /* banner css */
+
 .banner{
     width: 100%;
     height: 800px;
@@ -40,9 +41,26 @@
     padding: 10px;
     border-radius: 5%;
 }
+
+/* failure story css */
+
+
 .person-container{
     display: flex;
     align-items: center;
+    justify-content: space-evenly ;
+    margin: 120px 153px;
+
+}
+.failure-container{
+    width: 500px;
+    margin-right: 305px;
+}
+.failure-title{
+    margin-bottom: 10px;
+}
+.failure-description{
+    margin-bottom: 20px;
 }
 
 
