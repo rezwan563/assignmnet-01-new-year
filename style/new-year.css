@@ -38,8 +38,9 @@
     color: white;
     border: none;
     /* width: 100px; */
-    padding: 10px;
+    padding: 10px 18px;
     border-radius: 5%;
+    font-weight: 900;
 }
 
 /* failure story css */
@@ -71,6 +72,8 @@ img{
 .failure-bullet{
     margin-bottom: 10px;
 }
+/* plans css */
+
 .plan-title{
     text-align: center;
     font-size: 36px;
@@ -94,6 +97,8 @@ img{
 .plan-description{
     color:gray
 }
+/* gradien-wrist watch css */
+
 .gradient{
     margin-top: 100px;
     position: relative;
@@ -111,9 +116,88 @@ img{
 }
 .gradient-text{
     position: absolute;
-    left:200px
+    left:400px;
+    top: 200px;
+    font-size: 34px;
+    color: white;
+    font-weight: 900;
+}
+.btn-secondary{
+    position: absolute;
+    background-color: white;
+    color: rgb(239, 136, 11);
+    padding: 18px;
+    border: none;
+    left: 400px;
+    bottom: 50px;
+    font-weight: 900;
+}
+.positive-mindset{
+    width: 10px;
+}
+/* footer css */
+.contact-us{
+    display: flex;
+    margin-top: 200px;
+    width:100%;
+    height: 300px;
+    background-color: black;
+    justify-content: space-around;
+    position: absolute;
+}
+.future{
+    color: white;
+    width: 400px;
+    margin-top: 70px;
+}
+.future-text{
+    font-size: 32px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+.subscribe{
+    color: white;
+    margin-top: 70px;
+    font-size: 24px
+}
+input{
+    border-style: rgb(252, 251, 251);
+    border-width: 1px;
+    background-color: black;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+.btn-secondary{
+    color: orangered;
+    background-color: white;
+    border: none;
+    padding: 10px 18px;
+    margin-right: 0;
+    font-weight: 800;
+    border-radius: 5%;
+}
+.future-description, .future-email{
+    margin-bottom: 10px;
+}
+.social-icon{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 290px;
+    gap: 10px;
 
-    ;
-    
-
+}
+.subscribe-title{
+    margin-bottom: 10px;
+}
+.btn-subscribe{
+    color: orangered;
+    background-color: white;
+    border: none;
+    padding: 10px 12px;
+    margin-right: 0;
+    border-radius: 5%;
+    font-weight: 900;
 }
